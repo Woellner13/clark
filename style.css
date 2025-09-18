@@ -1,0 +1,19 @@
+header {
+    background-color: rgb(80, 1, 1);
+    text-align: center;
+    color: rgb(160, 160, 10);
+}
+
+h1 {
+    font-size: 70px;
+    font-style: italic;
+    margin: 5px;
+}
+
+p header {
+    border-width: 10px;
+}
+
+#historia {
+    font-style: monospace;
+}
