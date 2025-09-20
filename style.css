@@ -1,19 +1,53 @@
 header {
-    background-color: rgb(80, 1, 1);
+    background-color: rgb(60, 1, 1);
     text-align: center;
     color: rgb(160, 160, 10);
+    padding: 20px; /* um respiro no header */
 }
 
 h1 {
     font-size: 70px;
-    font-style: italic;
-    margin: 5px;
+    font-family: "Segoe Script", cursive; /* com fallback */
+    margin: 10px 0; /* margem superior e inferior */
 }
 
-p header {
-    border-width: 10px;
+header p {
+    font-size: 18px;
+}
+
+main h2 {
+    text-align: center;
+    color: rgb(160, 160, 10);
+}
+
+#informacoes {
+    background-color: rgb(100, 1, 1);
+}
+
+li.alinhada {
+    display: flex;         /* ativa flexbox */
+    gap: 15px;             /* espaçamento entre span e p */
+    align-items: center;   /* alinha verticalmente os elementos */
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Rótulo em negrito */
+li.alinhada span {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(160, 160, 10);
 }
 
 #historia {
-    font-style: monospace;
+    background-color: rgb(80, 1, 1);
+}
+
+.fonte {
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.5; /* mais legibilidade */
+    font-weight: 100;
+    color: white;
 }
