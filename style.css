@@ -20,7 +20,7 @@ main h2 {
     color: rgb(160, 160, 10);
 }
 
-#informacoes {
+.informacoes {
     background-color: rgb(100, 1, 1);
 }
 
@@ -47,7 +47,29 @@ li.alinhada span {
 .fonte {
     font-family: monospace;
     font-size: 15px;
-    line-height: 1.5; /* mais legibilidade */
+    line-height: 1.5;
     font-weight: 100;
     color: white;
+}
+
+.outros {
+    display: inline;
+    margin-right: 100px;
+    width: 30px;
+}
+
+.mais {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: rgb(160, 160, 10);
+}
+
+.adds {
+    text-align: center;
+}
+
+a.mais {
+    padding: 0px 60px;
+    
 }
