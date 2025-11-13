@@ -67,9 +67,9 @@ li.alinhada span {
 
 .adds {
     text-align: center;
+    width: 940px;
+    margin: 0 auto;
+    display: inline-block;
 }
 
-a.mais {
-    padding: 0px 60px;
-    
-}
+
